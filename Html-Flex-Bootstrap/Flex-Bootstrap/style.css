@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18, 73, 73);
+
+}
+
+.box1{
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+.box1 h2{
+    color: white;
+}
+
+
+
+.hedermenu ul {    
+  display: flex;
+  justify-content:space-between;
+  border-style: solid;
+  border-width: 0px;
+  list-style: none;
+  position: relative;
+  left:1300px;
+  top: 10px;
+  width: 400px;
+}
+
+.hedermenu a {
+    color: white;
+    text-decoration: none;
+}
+
+.body{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(16, 180, 139);
+    
+}
+.body img{
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
+
+.title1{
+    color: white;
+    position: relative;
+    left: 780px;
+    top: 60px;
+}
+
+.designe1{
+    color: white;
+    position: relative;
+    left: 925px;
+    top: 70px;
+}
+.content1{
+    color: white;
+    position: relative;
+    left: 800px;
+    top: 80px;
+}
+
+.body2{
+    display: flex;
+    width: 70%;
+    margin: 3rem auto;
+}
+.all-box{
+    padding: 3rem 0;
+}
+.title2{
+    color: rgb(0, 29, 83);
+    text-align: center;
+}
+.title2 i{
+    display: inline;
+}
+
+.box{
+    width: 33%;
+    margin: 0 25px;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.all-box2{
+    padding: 3rem 0;
+    height: 800px;
+    background-color: rgb(16, 180, 139);
+    display:flex;
+    justify-content: center;
+}
+
+.title3{
+    color: rgb(0, 29, 83);
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+.body3{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.title3 i{
+    position: relative;
+    left: 40%;
+}
+
+.all-box3{
+    padding: 3rem 0;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+}
+
+.forms{
+    display: flex;
+  justify-content: center;
+    justify-content: center;
+    border: solid 3px black;
+    width: 200px;
+}
+
+.forms{
+    position: relative;
+    top: 30%;
+
+}
